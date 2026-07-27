@@ -1,0 +1,1 @@
+Shared dir - everyone has read and write access

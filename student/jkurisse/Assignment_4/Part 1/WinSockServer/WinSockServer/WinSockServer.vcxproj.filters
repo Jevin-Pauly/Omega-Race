@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MemTracker">
+      <UniqueIdentifier>{1d659444-eb5b-4aa4-a943-a401d5c1c097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Capture The Flag">
+      <UniqueIdentifier>{bddad258-4f2e-4f77-9c39-36b53f3262aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkManager">
+      <UniqueIdentifier>{3265c4bf-8e34-436e-888b-c0b0335b6eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{6e7ddbce-6185-406f-9905-d1bf693dd7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\Coin Flip">
+      <UniqueIdentifier>{2ac98c21-b89e-4fae-b146-28576f83abbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\Position">
+      <UniqueIdentifier>{58a34482-82fe-46c7-9b4d-c30e5c8af88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\Position\Ack">
+      <UniqueIdentifier>{c2788b24-418b-430e-ac37-b469e503493d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MemTracker\Framework.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MemTracker\ProjectSettings.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureTheFlag.h">
+      <Filter>Capture The Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="CTFPlayer.h">
+      <Filter>Capture The Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="CTFField.h">
+      <Filter>Capture The Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Capture The Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>NetworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinFlipPacket.h">
+      <Filter>Packet\Coin Flip</Filter>
+    </ClInclude>
+    <ClInclude Include="AckPositionPacket.h">
+      <Filter>Packet\Position\Ack</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionPacket.h">
+      <Filter>Packet\Position</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinSockServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureTheFlag.cpp">
+      <Filter>Capture The Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="CTFField.cpp">
+      <Filter>Capture The Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="CTFPlayer.cpp">
+      <Filter>Capture The Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>NetworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AckPositionPacket.cpp">
+      <Filter>Packet\Position\Ack</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinFlipPacket.cpp">
+      <Filter>Packet\Coin Flip</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionPacket.cpp">
+      <Filter>Packet\Position</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CTF.cd">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
